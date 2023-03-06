@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <link rel="icon" type="image/png" href="https://cdn.discordapp.com/avatars/953046287815671838/546a93749d1ce9b70ecdef682a68ab45.webp">
+  
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <style>
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+      }
+      input,
+select,
+textarea {
+    max-width: 20%;
+}
+    </style>
+
+    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  </head>
+  <body>
+  <div align="center">
+  <img src="https://cdn.discordapp.com/avatars/953046287815671838/546a93749d1ce9b70ecdef682a68ab45.webp" alt="Safeguard" width="175" height="200">
+  
+  <form action="https://sheetdb.io/api/v1/hzugwsdp1qc2u" method="POST" id="sheetdb-form">
+  
+  <h1>Safeguard Report</h1>
+  <div class="field">
+      <label for="name">Your Discord Account and ID:</label>
+      <input type="text" class="form-control" id="reporter" name="reporter" placeholder="Ex: Safeguard#9999 (953046287815671838)" />
+      <small></small>
+  </div>
+  <div class="field">
+      <label for="name">The Peron's Discord Account and ID</label>
+      <input type="text" class="form-control" id="personreported" name="personreported" placeholder="Ex: Safeguard#9999 (953046287815671838)" />
+      <small></small>
+</div>
+<div class="field">
+<label for="name">Reason:</label>
+<input type="text" class="form-control" id="reason" name="reason" placeholder="What's the reason for the report?" />
+<small></small>
+</div>
+<div class="field">
+<label for="name">Proof:</label>
+<input type="text" class="form-control" id="proof" name="proof" placeholder="Imagine Link" />
+<small></small>
+</div>
+<br />
+<div class="checkbox">
+<label><input type="checkbox" id="certify" name="certify" /> I certify that all the Information above are in fact correct. I also understand that falsifying reports can lead to you being banned In the Safeguard Ban Database.</label>
+
+<small></small>
+</div>
+  
+  <button type="submit" class="g-recaptcha btn btn-primary" 
+        data-action='submit'>Submit</button>
+</form>
+</div>
+
+</body>
+</html>
